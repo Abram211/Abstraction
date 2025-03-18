@@ -1,4 +1,4 @@
-public class Computer {
+public abstract class Computer {
     String core;
     int storage;
 
@@ -6,4 +6,5 @@ public class Computer {
         this.core = core;
         this.storage = storage;
     }
+    public abstract void displayDetails();
 }
