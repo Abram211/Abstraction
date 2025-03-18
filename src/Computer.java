@@ -7,4 +7,7 @@ public abstract class Computer {
         this.storage = storage;
     }
     public abstract void displayDetails();
+    public double computeValue(double cost,double shifting){
+        return cost+shifting;
+    }
 }
