@@ -5,4 +5,9 @@ public class Hp extends Computer{
         super(core, storage);
         this.ram = ram;
     }
+    public void displayDetails(){
+        System.out.println("Core: "+core);
+        System.out.println("Storage: "+storage+"TB");
+        System.out.println("RAM: "+ram +"GB");
+    }
 }
