@@ -5,4 +5,9 @@ public class Dell extends Computer{
         super(core, storage);
         this.released = released;
     }
+    public void displayDetails() {
+        System.out.println("Core: "+core);
+        System.out.println("Storage: "+storage+"GB");
+        System.out.println("Released Year: "+released);
+    }
 }
