@@ -7,5 +7,8 @@ public class Main {
         hp.displayDetails();
         System.out.println("Cost of hp "+ hp.computeValue(450,5)+"USD");
         System.out.println();
+        System.out.println("Displaying details of DELL ");
+        dell.displayDetails();
+        System.out.println("Computed Cost of Dell "+ dell.computeValue(400,5)+"USD");
     }
 }
